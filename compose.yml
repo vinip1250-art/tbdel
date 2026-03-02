@@ -1,0 +1,10 @@
+services:
+  torbox-cleaner:
+    build: .
+    container_name: torbox-cleaner
+    restart: unless-stopped
+    environment:
+      - TORBOX_API_KEY=${TORBOX_API_KEY}
+      - STALL_MINUTES=${STALL_MINUTES:-30}
+    volumes:
+      - ./logs:/var/log
