@@ -1,0 +1,12 @@
+{
+  "name": "torbox-cleaner",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ts-node src/cleaner.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
