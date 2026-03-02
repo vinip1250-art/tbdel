@@ -138,7 +138,6 @@ Total: 1000 | Travados: 3
 
 - **Backup**: Teste com `STALL_MINUTES=9999` primeiro
 - **Rate limit**: API tem limite de ~1000 requisições/hora
-- **Logs**: Volume `./logs` persiste logs
 
 ## ⭐ Contribua
 
@@ -154,5 +153,4 @@ Total: 1000 | Travados: 3
 ***
 
 Citações:
-[1] torbox-sdk-dotnet/documentation/services/TorrentsService.md at main https://github.com/TorBox-App/torbox-sdk-dotnet/blob/main/documentation/services/TorrentsService.md
-[2] image.jpg https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/158879466/96aa4a22-cfa8-4066-be23-377d3a22f6b1/image.jpg
+torbox-sdk-dotnet/documentation/services/TorrentsService.md at main https://github.com/TorBox-App/torbox-sdk-dotnet/blob/main/documentation/services/TorrentsService.md
